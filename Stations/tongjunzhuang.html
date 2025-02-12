@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<title>cc1287 服务器公共交通地图</title>
+		<link rel="shortcut icon" href="/Resources/logo.png">
+		<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#menu {
+			position: relative;
+			background-color:#dcc9c1;
+			width: 100%;
+			height: 60px;
+		}
+ 
+		.logo {
+			color: #0c0c01;
+			display: inline-block;
+			line-height: 58px;
+			position: absolute;
+			padding: 20 40px;
+			font-family:"仿宋";
+			font-weight: bold;
+		}
+ 
+		ul {
+			list-style: none;
+			display: inline-block;
+			padding-left: 140px;
+		}
+ 
+		ul li {
+			line-height: 60px;
+			text-align: center;
+			position: relative;
+			float: left;
+		}
+ 
+		a {
+			text-decoration: none;
+			color: rgb(13, 6, 6);
+			display: block;
+			padding: 0 20px;
+			white-space: nowrap;
+			font-family:"仿宋";
+			font-weight: bold;
+		}
+		a:hover {
+			color: #FFF;
+			background-color: #ccc;
+		}
+		ul li ul li {
+			float: none;
+			margin-top: 2px;
+			background-color: #dcc9c1;
+		}
+		ul li ul li a:hover {
+			color: #FFF;
+			background-color: #ccc;
+		}
+		ul li ul {
+			position: absolute;
+			left: 0;
+			top: 60px;
+			display: none;
+			padding-left: 0;
+		}
+	   
+		ul li:hover ul {
+			display: block;
+		}
+		
+		#nav {
+		    line-height:30px;
+		    background-color:#ffffff;
+		    height:700px;
+		    width:300px;
+		    float:left;
+		    padding:5px;	      
+		}
+	</style>
+	</head>
+	<body style="background-color: #829dc8;">
+		<div id="menu">
+		    <div class="logo">
+		       <p style="font-size: 20px;">&#128645;&nbsp;交通地图</p>
+		    </div>
+		    <ul >
+		        <li><a href="/index.html">首页</a></li>
+		        <li><a href="#">高速铁路/快轨</a>
+		            <ul>
+		                <li><a href="/Lines/HS1.html">快轨一号线</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="#">中/低速轨道交通</a>
+		            <ul>
+		                <li><a href="/Lines/SW1.html">地铁一号线</a></li>
+		                <li><a href="/Lines/xinshun.html">新顺铁路</a></li>
+		                <li><a href="/Lines/shixuan.html">十轩铁路</a></li>
+		        		<li><a href="/Lines/hongxin.html">洪新线</a></li>
+						<li><a href="/Lines/xuanyan.html">轩沿线（西北环线）</a></li>
+		            </ul>
+		        </li>
+				<li><a href="#">专用线/联络线等</a>
+				    <ul>
+				        <li><a href="/Lines/baoxi.html">宝西联络线</a></li>
+				        <li><a href="/Lines/gaojing.html">高井监狱线</a></li>
+				        <li><a href="/Lines/hongan.html">红埯线</a></li>
+				        <li><a href="/Lines/shihan.html">石汉货专</a></li>
+				    </ul>
+				</li>
+		        <li><a href="#">机场/港口</a>
+		            <ul>
+		                <li><a href="/Stations/xuanshen.html">轩神站</a></li>
+						<li><a href="/Stations/gaojingairport.html">高井机场</a></li>
+						<li><a href="/Stations/wangpingairport.html">王坪机场</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="#">线路图等</a>
+		            <ul>
+		                <li><a href="/Maps/LINEMAP.html">线路图</a></li>
+		                <li><a href="/Maps/PLATLINEMAP.html">配线图</a></li>
+		                <li><a href="/Maps/REALMAP.html">地图</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="#">更多</a>
+		            <ul>
+						<li><a href="/teach.html">游玩教程</a></li>
+		                <li><a href="/about.html">关于</a></li>
+						<li><a href="/report.html">乘车反馈</a></li>
+		                <li><a href="/callus">联系我们</a></li>
+		            </ul>
+		        </li>
+		    </ul>
+		</div>
+		<div id="nav">
+			<center>
+				<img src="/Resources/CR.png" alt="CR", width="50">
+				<b><p style="font-family: 仿宋; size: 50px;">统 军 庄 站</br>Tongjunzhuang Station</p></b>
+			<table border="3">
+			 <tr>
+			  <td bgcolor="#b1e1e8">中文名</td>
+			  <td bgcolor="#b1e1e8">统军庄站</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">英文名</td>
+			  <td bgcolor="#b1e1e8">Tongjunzhuang Station</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">等级</td>
+			  <td bgcolor="#b1e1e8">叁等站</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">服务</td>
+			  <td bgcolor="#b1e1e8">铁路客运</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">站场</td>
+			  <td bgcolor="#b1e1e8">二台四线</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">位置</td>
+			  <td bgcolor="#b1e1e8">x:-945 y:70 z:-942</td>
+			 </tr>
+			</table>
+			</br>
+			<table border="3">
+			 <tr>
+			  <td bgcolor="#b1e1e8">前一站</td>
+			  <td bgcolor="#b1e1e8">线路</td>
+			  <td bgcolor="#b1e1e8">后一站</td>
+			 </tr>
+			 <tr>
+			  <td bgcolor="#b1e1e8">莽山</br>(轩神站方向)</td>
+			  <td bgcolor="#b1e1e8">轩沿线</br>(西北环线)</td>
+			  <td bgcolor="#b1e1e8">马场</br>(顺义方向)</td>
+			 </tr>
+			</table>
+			</center>
+		</div>
+		<iframe src="http://d.hmmc.cc:16994/#world:-944:73:-943:8:3.13:0.8:0:0:perspective" title="在线地图" width="75%" height="700"></iframe>
+	</body>
+</html>
